@@ -1,0 +1,244 @@
+
+  
+   body{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*organiza os conteúdos acima, centro e abaixo*/
+    }  
+
+
+     /*essa tag tira decoração do texto*/
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+     
+       header{
+        background-color: #425263;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between ; /*direciona os elementos para a extremidade*/
+      }
+  
+   header nav{
+
+    display: flex;
+    align-items: center;
+
+        
+  }
+
+  header nav a{
+    
+    margin-right: 1.3em;
+    font-size: 1.5em;
+    
+}
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*video edicao*/
+ .video{ 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .video-item{
+   width: 30%;
+   height: auto;   
+}
+
+  .video-box{ 
+  width: 100%;
+  height: auto;
+
+
+  }
+
+
+
+
+  /*teste*/
+
+
+  /*para o Html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.header{
+    background-color: #425263;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.rodape {
+    background-color: #425263;
+    color: white;
+    text-align: center;
+}
+
+ .galeria{
+    display: flex;
+    flex-wrap: wrap;/*quebrem para a proxima linha*/
+    justify-content: space-between/*espaçamento entre arquivos*/;
+    border: 1px black;
+ }
+
+ .titulo{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+ }
+ 
+
+ .boximg{
+    flex: 1.1 23%;
+    min-height: 350px;
+    margin: 1%;
+    box-sizing: border-box;
+ }
+ .img1{
+   background-image: url(img/Gabrielle\ Nº9.jpg);
+  
+   
+ }
+ .img2{
+    background-image: url(img/04\ Kombi.jpg);
+ }
+ .img3{
+    background-image: url(img/Outdoor.png);
+ }
+
+ .descricao {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+
+
+ .ajuste{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .textodescri{
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+ 
+   *{
+      margin: 0;
+      padding: 0;
+ 
+   }
+
+   /*ajuste de responsividade*/
+@media (max-width:768px) {
+    .boximg {
+        flex: 1 1 48%;
+    }
+ }
+ @media (max-width:480px){
+    .boximg{
+        flex: 1 1 100%;
+    }
+    .título{
+        font-size: 30px;
+    }
+ }
+
+   /*ajustes de article, imagem dentro dele e o texto abaixo dela*/
+
+
+
+   .main {
+    padding: 40px 0;
+  }
+ 
+
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+ 
+ 
+   article {
+    background-color: #fff;      /* FUNDO branco = já cria o "bloco visível" */
+    border: 1px solid #ddd;      /* BORDA cinza claro = contorno da "caixa" */
+    margin: 10px;                /* ESPAÇO externo = separa os blocos */
+    padding: 10px;               /* ESPAÇO interno = afasta o conteúdo das bordas */
+    width: 300px;                /* LARGURA fixa = forma uma "caixa retangular" */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* SOMBRA = dá profundidade, destacando ainda mais */
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+aside {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    background-color: #ff9191;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
